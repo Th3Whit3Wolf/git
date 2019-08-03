@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo "Linting..."
+cargo clippy
+echo "Checking Formatting..."
+cargo fmt
+echo "Checking Tests..."
+cargo test
+
+# mdbook could be user here also
